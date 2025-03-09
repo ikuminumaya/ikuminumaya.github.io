@@ -2,48 +2,105 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joe's Research Homepage</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ikumi Numaya | 沼谷 郁美</title>
+    <meta name="description" content="This is the portfolio site of Ikumi Numaya. I am doing research on Natural Language Processing and Artificial Intelligence at Tohoku University, affiliated with the Jun Suzaki Lab and the Tohoku NLP Group.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/style.js" defer></script>
 </head>
+
 <body>
-    <header>
-        <h1>Joe's Research Homepage</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <div id="home" class="big-bg">
+        <nav class="nav-column">
+            <div class="affiliate-container">
+                <div class="logo_bg-container affiliate-container-item">
+                    <div class="logo_bg">
+                        <h1><a href="index.html"><img class="logo" src="images/logo.png" alt="Ikumi Numaya Logo"></a></h1>
+                    </div>
+                </div>
+                <h2 class="bio-myname affiliate-container-item">Ikumi Numaya</h2>
+                <p class="bio-belongings affiliate-container-item">Tohoku NLP Group</p>
+                <ul class="list-inline affiliate-container-item">
+                    <p id="email-text">ikumi.numaya@example.com</p>
+                    <li class="list-inline-item"><a href="https://github.com/yourgithub"><img src="images/github.svg" class="logo-list"></img></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/yourtwitter"><img src="images/x-twitter.svg" class="logo-list"></img></a></li>
+                </ul>
+            </div>
+            <div class="nav-item-list-container">
+                <div class="nav-item-list-line"></div>
+                <ul class="nav-item-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="images/house-solid.svg" class="logo-list"></img>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.nlp.ecei.tohoku.ac.jp/">
+                            <img src="images/tohoku-nlp_logo.svg" class="logo-list"></img>
+                            <span>Tohoku NLP</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav-item-list-line"></div>
+            </div>
         </nav>
-    </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a researcher in Natural Language Processing (NLP), focusing on dialogue systems and AI-human interactions.</p>
-    </section>
-    
-    <section id="research">
-        <h2>Research Interests</h2>
-        <p>My research aims to improve the interpretability and robustness of NLP models, particularly in Natural Language Inference.</p>
-    </section>
-    
-    <section id="publications">
-        <h2>Publications</h2>
-        <ul>
-            <li><a href="#">Title of Paper 1</a> - Conference/Journal, Year</li>
-            <li><a href="#">Title of Paper 2</a> - Conference/Journal, Year</li>
-        </ul>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: joe@example.com</p>
-    </section>
+        
+        <article>
+            <div class="wrapper">
+                <div class="subtitle-container">
+                    <div class="subtitle-line"></div>
+                    <h2 class="subtitle">Research Interests</h2>
+                </div>
+                <ul class="interests content-list">
+                    <li class="other-list-item">Natural Language Processing</li>
+                    <li class="other-list-item">Artificial Intelligence</li>
+                </ul>
+            </div>
+            
+            <div class="wrapper">
+                <div class="subtitle-container">
+                    <div class="subtitle-line"></div>
+                    <h2 class="subtitle">Biography</h2>
+                </div>
+                <ul class="short-cv timeline content-list">
+                    <li>
+                        <p class="timeline-date">Year</p>
+                        <div class="timeline-content-wrapper">
+                            <div class="timeline-content">
+                                <h3>Tohoku University</h3>
+                                <p>Graduate School of Information Sciences</p>
+                                <p>Year - Present</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="wrapper">
+                <div class="subtitle-container">
+                    <div class="subtitle-line"></div>
+                    <h2 class="subtitle">Publications</h2>
+                </div>
+                <ul class="journal content-list">
+                    <li class="bib-item">
+                        <div class="paper-container">
+                            <p class="paper-title">Title of Paper</p>
+                            <div class="paper-info-container">
+                                <p class="paper-info">Author Name(s)</p>
+                                <p class="paper-info">Conference/Journal, Year</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </div>
     
     <footer>
-        <p>&copy; 2025 Joe's Research Homepage</p>
+        <p><small>&copy; 2025 Ikumi Numaya<br>Implemented by Ikumi Numaya</small></p>
     </footer>
 </body>
 </html>
