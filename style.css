@@ -1,0 +1,122 @@
+charset "UTF-8";
+
+/* ------------------
+---- Common Styles ----
+------------------ */
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Zen Maru Gothic", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #2c3e50; /* Navy */
+    background-color: #f5f5f5; /* Light Gray */
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.subtitle-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.subtitle-line {
+    width: 6px;
+    height: 30px;
+    background-color: #2c3e50; /* Navy */
+    margin-right: 10px;
+}
+.subtitle {
+    font-size: 28px;
+    color: #2c3e50; /* Navy */
+}
+
+/* ------------------
+---- Navigation ----
+------------------ */
+.nav-column {
+    width: 250px;
+    height: 100vh;
+    background: #34495e; /* Dark Navy */
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.nav-column .logo {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.nav-column h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.nav-column p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nav-column ul {
+    list-style: none;
+    padding: 0;
+}
+.nav-column ul li {
+    margin: 10px 0;
+}
+.nav-column ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    color: white;
+}
+.nav-column ul li a:hover {
+    color: #bdc3c7; /* Light Gray */
+}
+
+/* ------------------
+---- Main Content ----
+------------------ */
+.main-content {
+    margin-left: 270px;
+    padding: 40px;
+}
+.section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #2c3e50; /* Navy */
+}
+.section ul {
+    padding-left: 20px;
+}
+.section ul li {
+    margin-bottom: 5px;
+}
+
+/* ------------------
+---- Footer ----
+------------------ */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #34495e; /* Dark Navy */
+    color: white;
+}

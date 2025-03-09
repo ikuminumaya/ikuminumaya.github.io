@@ -2,105 +2,66 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>Ikumi Numaya | 沼谷 郁美</title>
-    <meta name="description" content="This is the portfolio site of Ikumi Numaya. I am doing research on Natural Language Processing and Artificial Intelligence at Tohoku University, affiliated with the Jun Suzaki Lab and the Tohoku NLP Group.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500&display=swap">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/style.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikumi Numaya | NLP Researcher</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div id="home" class="big-bg">
-        <nav class="nav-column">
-            <div class="affiliate-container">
-                <div class="logo_bg-container affiliate-container-item">
-                    <div class="logo_bg">
-                        <h1><a href="index.html"><img class="logo" src="images/logo.png" alt="Ikumi Numaya Logo"></a></h1>
-                    </div>
-                </div>
-                <h2 class="bio-myname affiliate-container-item">Ikumi Numaya</h2>
-                <p class="bio-belongings affiliate-container-item">Tohoku NLP Group</p>
-                <ul class="list-inline affiliate-container-item">
-                    <p id="email-text">ikumi.numaya@example.com</p>
-                    <li class="list-inline-item"><a href="https://github.com/yourgithub"><img src="images/github.svg" class="logo-list"></img></a></li>
-                    <li class="list-inline-item"><a href="https://twitter.com/yourtwitter"><img src="images/x-twitter.svg" class="logo-list"></img></a></li>
-                </ul>
+    <div class="nav-column">
+        <img src="images/logo.png" alt="Ikumi Numaya Logo" class="logo">
+        <h2>Ikumi Numaya | 沼屋 征海</h2>
+        <p>Tohoku NLP Group | Jun Suzaki Lab</p>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    
+    <div class="main-content">
+        <section id="about" class="section">
+            <div class="subtitle-container">
+                <div class="subtitle-line"></div>
+                <h2 class="subtitle">About Me</h2>
             </div>
-            <div class="nav-item-list-container">
-                <div class="nav-item-list-line"></div>
-                <ul class="nav-item-list">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">
-                            <img src="images/house-solid.svg" class="logo-list"></img>
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.nlp.ecei.tohoku.ac.jp/">
-                            <img src="images/tohoku-nlp_logo.svg" class="logo-list"></img>
-                            <span>Tohoku NLP</span>
-                        </a>
-                    </li>
-                </ul>
-                <div class="nav-item-list-line"></div>
-            </div>
-        </nav>
+            <p>I am a researcher in Natural Language Processing (NLP) at Tohoku University, affiliated with the Jun Suzaki Lab and a member of the Tohoku NLP Group.</p>
+        </section>
         
-        <article>
-            <div class="wrapper">
-                <div class="subtitle-container">
-                    <div class="subtitle-line"></div>
-                    <h2 class="subtitle">Research Interests</h2>
-                </div>
-                <ul class="interests content-list">
-                    <li class="other-list-item">Natural Language Processing</li>
-                    <li class="other-list-item">Artificial Intelligence</li>
-                </ul>
+        <section id="research" class="section">
+            <div class="subtitle-container">
+                <div class="subtitle-line"></div>
+                <h2 class="subtitle">Research Interests</h2>
             </div>
-            
-            <div class="wrapper">
-                <div class="subtitle-container">
-                    <div class="subtitle-line"></div>
-                    <h2 class="subtitle">Biography</h2>
-                </div>
-                <ul class="short-cv timeline content-list">
-                    <li>
-                        <p class="timeline-date">Year</p>
-                        <div class="timeline-content-wrapper">
-                            <div class="timeline-content">
-                                <h3>Tohoku University</h3>
-                                <p>Graduate School of Information Sciences</p>
-                                <p>Year - Present</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+            <ul>
+                <li>Natural Language Processing</li>
+                <li>Preference in Dialogue</li>
+            </ul>
+        </section>
+        
+        <section id="publications" class="section">
+            <div class="subtitle-container">
+                <div class="subtitle-line"></div>
+                <h2 class="subtitle">Publications</h2>
             </div>
-            
-            <div class="wrapper">
-                <div class="subtitle-container">
-                    <div class="subtitle-line"></div>
-                    <h2 class="subtitle">Publications</h2>
-                </div>
-                <ul class="journal content-list">
-                    <li class="bib-item">
-                        <div class="paper-container">
-                            <p class="paper-title">Title of Paper</p>
-                            <div class="paper-info-container">
-                                <p class="paper-info">Author Name(s)</p>
-                                <p class="paper-info">Conference/Journal, Year</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+            <ul>
+                <li>発話スタイルの類似とユーザ本人による対話の好ましさの相関 - 言語処理学会第31回年次大会(NLP2025), 2025<br>
+                    (<u>沼屋 征海</u>,守屋 彰二,佐藤 志貴,赤間 怜奈,鈴木 潤)
+                </li>
+            </ul>
+        </section>
+        
+        <section id="contact" class="section">
+            <div class="subtitle-container">
+                <div class="subtitle-line"></div>
+                <h2 class="subtitle">Contact</h2>
             </div>
-        </article>
+            <p>Email: numaya.ikumi.t4@dc.tohoku.ac.jp</p>
+        </section>
     </div>
     
     <footer>
-        <p><small>&copy; 2025 Ikumi Numaya<br>Implemented by Ikumi Numaya</small></p>
+        <p>&copy; 2025 Ikumi Numaya</p>
     </footer>
 </body>
 </html>
