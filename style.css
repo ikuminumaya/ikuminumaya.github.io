@@ -240,15 +240,16 @@ footer {
     .nav-container {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex; /* 左寄せ */
         width: 100%;
-        padding: 0 15px; /* 余白を縮小 */
-        gap: 10px; /* ロゴとメニューの間隔を狭く */
+        padding: 0 10px; /* 余白を縮小 */
+        gap: 10px; /* ロゴとナビゲーションの間隔を適度に */
     }
     
     .logo {
-        width: 50px;
+        width: 50px; /* サイズを小さく */
         border-radius: 50%;
+        margin-right: 0; /* 余計な余白を削除 */
     }
     
     .nav-container nav ul {
@@ -259,13 +260,11 @@ footer {
     }
     
     .nav-container nav ul li {
-        margin-left: 15px;
+        margin-left: 10px; /* メニュー間の間隔を調整 */
     }
     
     .nav-container nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-size: 10px;
+        font-size: 18px; /* 文字サイズを少し小さく */
     }
     .main-content {
         margin-left: 0;
