@@ -220,9 +220,9 @@ footer {
     
     .top-nav h2 {
         font-size: 18px;
-        margin: 0 auto;
-        padding-bottom: 5px; /* タイトルとセクション名の間隔調整 */
-        text-align: center; /* 中央揃え */
+        margin: 0 auto;  /* 中央揃え */
+        padding-bottom: 5px; 
+        text-align: center; 
         width: 100%;
     }
     
@@ -238,9 +238,9 @@ footer {
     .nav-container {
         display: flex;
         align-items: center;
-        justify-content: center; /* ロゴとナビゲーションを中央寄せ */
+        justify-content: space-between; /* 中央ではなく均等配置に変更 */
         width: 100%;
-        gap: 20px;
+        padding: 0 20px;
     }
     
     .logo {
