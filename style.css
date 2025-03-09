@@ -243,7 +243,7 @@ footer {
         justify-content: space-between;
         width: 100%;
         padding: 0 5px; /* 余白を縮小 */
-        gap: 10px; /* ロゴとメニューの間隔を狭く */
+        gap: 0px; /* ロゴとメニューの間隔を狭く */
     }
     
     .logo {
