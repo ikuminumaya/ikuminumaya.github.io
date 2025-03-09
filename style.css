@@ -118,3 +118,47 @@ footer {
     background: #34495e; /* Dark Navy */
     color: white;
 }
+
+/* --------------- */
+/* スマホ対応用CSS */
+/* --------------- */
+
+/* 画面幅が768px以下のとき (スマホサイズ) */
+@media screen and (max-width: 768px) {
+    /* サイドバーを非表示 */
+    .nav-column {
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* ナビゲーションメニューを縦並びに */
+    .nav-column ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-column ul li {
+        margin: 5px 0;
+    }
+
+    /* メインコンテンツの幅調整 */
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    /* 見出しのサイズ調整 */
+    .subtitle {
+        font-size: 24px;
+    }
+
+    /* 各セクションの余白調整 */
+    .section {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+}
