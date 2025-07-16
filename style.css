@@ -57,8 +57,10 @@ img {
 }
 .nav-column .logo {
     width: 120px;
+    height: 120px;
     border-radius: 50%;
     margin-bottom: 20px;
+    object-fit: cover;
 }
 .nav-column h2 {
     font-size: 20px;
@@ -85,6 +87,80 @@ img {
 }
 .nav-column ul li a:hover {
     color: #bdc3c7; /* Light Gray */
+}
+
+/* Navigation buttons */
+.nav-links {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4px;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.lab-button, .social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 8px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    font-size: 12px;
+    min-width: 28px;
+    min-height: 32px;
+}
+
+.lab-button:hover, .social-button:hover {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.social-button svg {
+    min-width: 16px;
+    min-height: 16px;
+    width: auto;
+    height: auto;
+    opacity: 0.8;
+}
+
+.social-button:hover svg {
+    opacity: 1;
+}
+
+/* Profile picture in About section */
+#about img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+    display: block;
+}
+
+/* Logo in navigation */
+.nav-column .logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+/* Logo in mobile header */
+.top-nav .logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+    object-fit: cover;
 }
 
 /* ------------------

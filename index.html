@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ikumi Numaya | 沼屋征海 | NLP Researcher</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,20 +25,24 @@
     <div class="nav-column">
         <img src="images/logo.png" alt="Ikumi Numaya Logo" class="logo">
         <h2>Ikumi Numaya | 沼屋 征海</h2>
-        <p>
-            <a href="https://www.nlp.ecei.tohoku.ac.jp/" target="_blank" 
-               style="text-decoration: none; color: #fff; transition: all 0.2s;"
-               onmouseover="this.style.color='#007BFF'; this.style.textDecoration='underline solid 2px'; this.style.cursor='pointer';"
-               onmouseout="this.style.color='#fff'; this.style.textDecoration='none';">
-                Tohoku NLP Group
-            </a> | 
-            <a href="https://www.fai.cds.tohoku.ac.jp/" target="_blank" 
-               style="text-decoration: none; color: #fff; transition: all 0.2s;"
-               onmouseover="this.style.color='#007BFF'; this.style.textDecoration='underline solid 2px'; this.style.cursor='pointer';"
-               onmouseout="this.style.color='#fff'; this.style.textDecoration='none';">
+        <div class="nav-links">
+            <a href="https://www.nlp.ecei.tohoku.ac.jp/" target="_blank" class="lab-button">
+                Tohoku NLP
+            </a>
+            <a href="https://www.fai.cds.tohoku.ac.jp/" target="_blank" class="lab-button">
                 Failab
             </a>
-        </p>
+            <a href="https://x.com/numaya_nlp" target="_blank" class="social-button">
+                <svg viewBox="0 0 24 24" width="24" height="24" style="fill: currentColor;">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+            </a>
+            <a href="https://github.com/ikuminumaya" target="_blank" class="social-button">
+                <svg viewBox="0 0 24 24" width="24" height="24" style="fill: currentColor;">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+            </a>
+        </div>
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#research">Research</a></li>
@@ -52,21 +57,24 @@
                 <div class="subtitle-line"></div>
                 <h2 class="subtitle">About Me</h2>
             </div>
-            <img src="images/picture.png" alt="Ikumi Numaya picture">
+            <img src="images/ikuminumaya.png" alt="Ikumi Numaya picture">
             <p>I am a researcher in Natural Language Processing (NLP) at Tohoku University, affiliated with <a href="https://www.fai.cds.tohoku.ac.jp/" target="_blank" 
                 style="text-decoration: none; color: #000; transition: all 0.2s;"
                 onmouseover="this.style.color='#007BFF'; this.style.textDecoration='underline solid 2px'; this.style.cursor='pointer';"
                 onmouseout="this.style.color='#000'; this.style.textDecoration='none';">
-                 <u>Failab</u>
-             </a> (Jun Suzuki Lab) and a member of <a href="https://www.nlp.ecei.tohoku.ac.jp/" target="_blank" 
+                 <strong>Failab</strong>
+             </a> (Jun Suzuki Lab)<br> and a member of <a href="https://www.nlp.ecei.tohoku.ac.jp/" target="_blank" 
                 style="text-decoration: none; color: #000; transition: all 0.2s;"
                 onmouseover="this.style.color='#007BFF'; this.style.textDecoration='underline solid 2px'; this.style.cursor='pointer';"
                 onmouseout="this.style.color='#000'; this.style.textDecoration='none';">
-                 <u>Tohoku NLP Group</u>
+                 <strong>Tohoku NLP Group</strong>
              </a>.</p>
             <h3>Background</h3>
-            <li>Born in Saitama, raised in Niigata</li>
-            <li>April 2021: Enrolled in the Department of Electrical, Information and Physics Engineering, School of Engineering, Tohoku University</li>
+            <ul class="timeline">
+                <li><span class="timeline-date">Born</span>Born in Saitama, raised in <strong>Niigata</strong></li>
+                <li><span class="timeline-date">April 2021</span>Enrolled in the Department of Electrical, Information and Physics Engineering, School of Engineering, <strong>Tohoku University</strong></li>
+                <li><span class="timeline-date">April 2024</span>Enrolled in <strong>Master's Program</strong>, Graduate School of Information Sciences, <strong>Tohoku University</strong></li>
+            </ul>
         </section>
         
         <section id="research" class="section">
@@ -75,8 +83,9 @@
                 <h2 class="subtitle">Research Interests</h2>
             </div>
             <ul>
-                <li>Natural Language Processing</li>
-                <li>Preference in Dialogue</li>
+                <li>Dialogue</li>
+                <li>Personalization</li>
+                <li>Dialogue Preference</li>  
             </ul>
         </section>
         
@@ -85,6 +94,40 @@
                 <div class="subtitle-line"></div>
                 <h2 class="subtitle">Publications</h2>
             </div>
+            <h3>International Conference</h3>
+            <ul>
+                <li>
+                    How Stylistic Similarity Shapes Preferences in Dialogue Dataset with User and Third Party Evaluations<br> - The 26th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2025), 2025<br>
+                    (<u>Ikumi Numaya</u>, Shoji Moriya, Shiki Sato, Reina Akama, Jun Suzuki)
+                    <span style="
+                        display: inline-block;
+                        padding: 2px 6px;
+                        margin-left: 8px;
+                        font-size: 12px;
+                        font-weight: bold;
+                        color: white;
+                        background-color: #4a90e2;
+                        border-radius: 3px;">NEW</span>
+                    <br>
+                    <a href="https://arxiv.org/abs/2507.10918" 
+                       target="_blank" 
+                       style="
+                            display: inline-block;
+                            padding: 2px 8px;
+                            margin-top: 2px;
+                            font-size: 11px;
+                            font-weight: normal;
+                            text-align: center;
+                            color: #fff;
+                            background-color: #e53e3e;
+                            border: 1px solid #e53e3e;
+                            border-radius: 3px;
+                            text-decoration: none;">
+                        Arxiv
+                    </a>
+                </li>
+            </ul>
+            <h3>Domestic Conference</h3>
             <ul>
                 <li>
                     発話スタイルの類似とユーザ本人による対話の好ましさの相関 - 言語処理学会第31回年次大会 (NLP2025), 2025<br>
@@ -94,9 +137,9 @@
                        target="_blank" 
                        style="
                             display: inline-block;
-                            padding: 4px 10px;
-                            margin-top: 4px;
-                            font-size: 12px;
+                            padding: 2px 8px;
+                            margin-top: 2px;
+                            font-size: 11px;
                             font-weight: normal;
                             text-align: center;
                             color: #333;
