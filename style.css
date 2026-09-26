@@ -185,6 +185,10 @@ img {
     margin-bottom: 5px;
 }
 
+#publications .subtitle-container + h3 {
+    margin-top: 0;
+}
+
 /* Timeline styles */
 .timeline {
     position: relative;
